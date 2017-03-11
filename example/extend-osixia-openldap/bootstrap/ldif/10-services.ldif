@@ -1,0 +1,27 @@
+
+dn: uid=postfix,ou=services,dc=example,dc=org
+changetype: add
+objectClass: account
+objectClass: simpleSecurityObject
+objectClass: top
+uid: postfix
+userPassword: {SSHA}6mq7zO4GF/8eQd2jyEXHn0JWsozQXC2I
+pwdPolicySubentry: cn=service,ou=pwpolicies,dc=example,dc=org
+
+dn: uid=dovecot,ou=services,dc=example,dc=org
+changetype: add
+objectClass: account
+objectClass: simpleSecurityObject
+objectClass: top
+uid: dovecot
+userPassword: {SSHA}3Tft1G8zrc9HNbpVCSwsWC5cCRrgnIwt 
+pwdPolicySubentry: cn=service,ou=pwpolicies,dc=example,dc=org
+
+dn: uid=saslauthd,ou=services,dc=example,dc=org
+changetype: add
+objectClass: account
+objectClass: simpleSecurityObject
+objectClass: top
+uid: dovecot
+userPassword: {SSHA}7/d1gNtxFZ/Bal3cZ17GfZPNfrMEkt4n
+pwdPolicySubentry: cn=service,ou=pwpolicies,dc=example,dc=org

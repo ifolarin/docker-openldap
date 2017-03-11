@@ -1,0 +1,19 @@
+dn: ou=people,{{ LDAP_BASE_DN }}
+changetype: add
+objectClass: organizationalUnit
+objectClass: top
+ou: people
+
+dn: ou=services,{{ LDAP_BASE_DN }}
+changetype: add
+objectClass: organizationalUnit
+objectClass: top
+ou: services
+
+# Define password policy ou
+
+dn: ou=pwpolicies,{{ LDAP_BASE_DN }}
+changetype: add
+objectClass: organizationalUnit
+objectClass: top
+ou: pwpolicies
