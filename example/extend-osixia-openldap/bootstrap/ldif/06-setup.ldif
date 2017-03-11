@@ -17,6 +17,7 @@ objectClass: simpleSecurityObject
 objectClass: top
 uid: postfix
 userPassword: {SSHA}6mq7zO4GF/8eQd2jyEXHn0JWsozQXC2I
+pwdPolicySubentry: "cn=service,ou=pwpolicies,{{ LDAP_BASE_DN }}"
 
 dn: uid=dovecot,ou=services,{{ LDAP_BASE_DN }}
 changetype: add
@@ -25,6 +26,7 @@ objectClass: simpleSecurityObject
 objectClass: top
 uid: dovecot
 userPassword: {SSHA}3Tft1G8zrc9HNbpVCSwsWC5cCRrgnIwt 
+pwdPolicySubentry: "cn=service,ou=pwpolicies,{{ LDAP_BASE_DN }}"
 
 dn: uid=saslauthd,ou=services,{{ LDAP_BASE_DN }}
 changetype: add
@@ -33,3 +35,4 @@ objectClass: simpleSecurityObject
 objectClass: top
 uid: dovecot
 userPassword: {SSHA}7/d1gNtxFZ/Bal3cZ17GfZPNfrMEkt4n
+pwdPolicySubentry: "cn=service,ou=pwpolicies,{{ LDAP_BASE_DN }}"
