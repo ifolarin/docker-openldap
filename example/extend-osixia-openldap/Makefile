@@ -1,5 +1,5 @@
-NAME = osixia/extend-osixia-openldap
-VERSION = 0.1.0
+NAME = ifolarin/openldap
+VERSION = 0.2.2
 
 .PHONY: all build build-nocache
 

@@ -1,5 +1,5 @@
 FROM osixia/openldap:1.1.8
-MAINTAINER Your Name <your@name.com>
+MAINTAINER Ibrahim Folarin <ifolarin@gmail.com>
 
 ADD bootstrap /container/service/slapd/assets/config/bootstrap
 ADD certs /container/service/slapd/assets/certs

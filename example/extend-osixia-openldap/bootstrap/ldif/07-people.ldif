@@ -1,0 +1,37 @@
+version: 1
+
+dn: uid=jane.morris,ou=people,dc=example,dc=org
+changetype: add
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: mailAccount
+cn: Jane Morris
+mail: jane.morris@example.org
+sn: Morris
+givenName: Jane
+mailalias: postmaster@example.org
+mailbox: /var/mail/jane.morris@example.org/MailDir
+mailenable: TRUE
+mailuserquota: 102400
+uid: jane.morris
+userPassword: {SSHA}7/d1gNtxFZ/Bal3cZ17GfZPNfrMEkt4n
+
+dn: uid=john.doe,ou=people,dc=example,dc=org
+changetype: add
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+objectClass: mailAccount
+cn: John Doe
+mail: john.doe@example.org
+sn: Doe
+givenName: John
+mailalias: sales@example.org
+mailbox: /var/mail/john.doe@example.org/MailDir
+mailenable: TRUE
+mailuserquota: 102400
+uid: john.doe
+userPassword: {SSHA}7/d1gNtxFZ/Bal3cZ17GfZPNfrMEkt4n
