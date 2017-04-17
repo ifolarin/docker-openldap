@@ -1,4 +1,4 @@
-NAME = ifolarin/openldap
+NAME = webbasedsol/openldap
 VERSION = 0.3.2
 
 .PHONY: all build build-nocache
