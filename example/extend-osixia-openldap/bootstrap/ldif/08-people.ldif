@@ -1,6 +1,6 @@
 version: 1
 
-dn: uniqueIdentifier=jane.morris,ou=people,dc=example,dc=org
+dn: uniqueIdentifier=jane.morris,ou=people,{{ LDAP_BASE_DN }}
 changetype: add
 objectClass: person
 objectClass: organizationalPerson
@@ -23,7 +23,7 @@ mailGidNumber: 5000
 uniqueidentifier: jane.morris
 userPassword: {SSHA}7/d1gNtxFZ/Bal3cZ17GfZPNfrMEkt4n
 
-dn: uniqueIdentifier=john.doe,ou=people,dc=example,dc=org
+dn: uniqueIdentifier=john.doe,ou=people,{{ LDAP_BASE_DN }}
 changetype: add
 objectClass: person
 objectClass: organizationalPerson
