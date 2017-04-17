@@ -1,5 +1,5 @@
 NAME = webbasedsol/openldap
-VERSION = 0.3.3
+VERSION = 0.3.4
 
 .PHONY: all build build-nocache test tag_latest release
 

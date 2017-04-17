@@ -1,4 +1,4 @@
-dn: uid=billy,dc=example,dc=org
+dn: uid=billy,{{ LDAP_BASE_DN }}
 changetype: add
 uid: billy
 cn: billy
