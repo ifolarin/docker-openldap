@@ -1,3 +1,4 @@
 /.*
 !/.git*
 **/.DS_Store
+example/extend-osixia-openldap/bootstrap/ldif/08-people.ldif
