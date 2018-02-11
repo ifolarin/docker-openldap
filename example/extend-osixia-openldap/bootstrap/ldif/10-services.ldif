@@ -25,3 +25,15 @@ objectClass: top
 uid: dovecot
 userPassword: {SSHA}7/d1gNtxFZ/Bal3cZ17GfZPNfrMEkt4n
 pwdPolicySubentry: cn=service,ou=pwpolicies,{{ LDAP_BASE_DN }}
+
+dn: mail=info@claritae.com,ou=groups,{{ LDAP_BASE_DN }}
+objectClass: top
+objectClass: organizationalPerson
+objectClass: PostfixBookMailAccount
+mail: info@claritae.com
+mailEnabled: TRUE
+mailUidNumber: 5000
+mailGidNumber: 5000
+cn: info
+sn: group
+description: info distribution group

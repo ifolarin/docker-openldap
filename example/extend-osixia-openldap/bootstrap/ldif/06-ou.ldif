@@ -17,3 +17,11 @@ changetype: add
 objectClass: organizationalUnit
 objectClass: top
 ou: pwpolicies
+
+# Define groups ou
+
+dn: ou=groups,{{ LDAP_BASE_DN }}
+changetype: add
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
