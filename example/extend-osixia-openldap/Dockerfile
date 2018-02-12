@@ -1,4 +1,4 @@
-FROM osixia/openldap:1.1.8
+FROM osixia/openldap:1.1.11
 MAINTAINER Ibrahim Folarin <ifolarin@webbasedsol.com>
 
 ADD bootstrap /container/service/slapd/assets/config/bootstrap
