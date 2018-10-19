@@ -1,5 +1,6 @@
 NAME = webbasedsol/openldap
-VERSION = 0.3.5
+VERSION = 0.4.0
+# Updated to osixia/openldap 1.2.1
 
 .PHONY: all build build-nocache test tag_latest release
 
